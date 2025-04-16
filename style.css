@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    /* padding: 10px; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    height: 75px;
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 5px solid #ffc400 ;
+    background: linear-gradient(90deg, #272626, #181717);
+    
+    
+}
+
+.nav-itens {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+    padding-right: 1rem;
+
+}
+
+.nav-itens a {
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 1.2rem;
+    transition: color 0.4s;
+    font-family: Opinion Pro Medium;
+    text-shadow: 1.1px 1.1px 0px rgb(255, 174, 0);
+    transition: background 0.4s, color 0.4s;
+    
+}
+
+.nav-itens a:hover {
+    color: white;
+}
+
+.logo img{
+    display: flex;
+    border-bottom: 30px;
+    margin-right: 8px;
+    height: 85px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    place-items: center; /* justify-content + align-items */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: 'Stop';
+    src: url('/assets/font/STP.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.saggaFont {
+    font-family: 'Stop';
+}
