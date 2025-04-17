@@ -1,70 +1,157 @@
-body {
+/*
+  1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+  2. Remove default margins and padding
+  3. Reset all borders.
+*/
+
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+    box-sizing: border-box;
+    /* 1 */
     margin: 0;
-    font-family: arial, sans-serif;
-    /* padding: 10px; */
+    /* 2 */
+    padding: 0;
+    /* 2 */
+    border: 0 solid;
+    /* 3 */
 }
 
-.navbar {
+/*
+  1. Use a consistent sensible line-height in all browsers.
+  2. Prevent adjustments of font size after orientation changes in iOS.
+  3. Use a more readable tab size.
+  4. Disable tap highlights on iOS.
+*/
+
+html,
+:root {
+    line-height: 1.5;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    tab-size: 4;
+    /* 3 */
+    font-family:
+        ui-sans-serif,
+        system-ui,
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji';
+    -webkit-tap-highlight-color: transparent;
+    /* 4 */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    color: white;
-    padding: 10px 40px;
-    height: 75px;
     border-radius: 0 0 1rem 1rem;
-    border-bottom: 5px solid #ffc400 ;
-    background: linear-gradient(90deg, #272626, #181717);
-    
-    
+    box-shadow: 0 2px 32px 0 #ffc400;
+    border-bottom: 5px solid #ffc400;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem
 }
 
-.nav-itens {
-    display: flex;
-    gap: 60px;
-    list-style: none;
-    align-items: center;
-    padding-right: 1rem;
-
-}
-
-.nav-itens a {
+a {
     text-decoration: none;
-    color:#ffffff;
-    font-size: 1.2rem;
-    transition: color 0.4s;
-    font-family: Opinion Pro Medium;
-    text-shadow: 1.1px 1.1px 0px rgb(255, 174, 0);
-    transition: background 0.4s, color 0.4s;
-    
 }
 
-.nav-itens a:hover {
-    color: white;
-}
-
-.logo img{
+.logomarca {
     display: flex;
-    border-bottom: 30px;
-    margin-right: 8px;
-    height: 85px;
+    flex-direction: row;
+    place-items: center;
+    gap: 1rem;
+    margin-left: 1rem
+}
+
+.saggaStudiosContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.5rem;
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    place-items: center; /* justify-content + align-items */
-    font-weight: bold;
-    font-size: 18px;
+    max-height: 3rem;
+}
+
+.saggaMarca {
+    max-height: 1.5rem;
 }
 
 @font-face {
-    font-family: 'Stop';
-    src: url('/assets/font/STP.TTF') format("truetype");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Opinion";
+    src: url(assets/font/Opinion\ Pro\ Light.otf);
 }
 
-.saggaFont {
-    font-family: 'Stop';
+.studiosMarca {
+    font-family: "Opinion";
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+/* Referência */
+/* https://prismic.io/blog/css-hover-effects#1-holographic-card */
+
+.holographic-card {
+    padding: 1rem;
+    background: black;
+    display: flex;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+}
+
+.holographic-card a {
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.holographic-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(0deg,
+            transparent,
+            transparent 30%,
+            #ffc400);
+    transform: rotate(-45deg);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.holographic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffc400;
+}
+
+.holographic-card:hover::before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
 }

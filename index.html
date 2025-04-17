@@ -1,49 +1,52 @@
 <!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagga Studios</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sagga</title>
-  <link rel="stylesheet" href="../style.css" />
-  <link rel="shortcut icon" href="./assets/img/logo.te.png" type="image/x-icon" />
-  <script src="./script.js"></script>
-
-</head>
-
-<body>
-  <header>
-    <nav class="navbar">
-      <section class="logo">
-        <img src="./assets/img/logo.te.png" alt="Logomarca da Sagga Estudios">
-        <div>
-          <p class="saggaFont">SAGGA</p>
-          <p>Studios</p>
+  <body>
+    <header>
+      <div class="logomarca">
+        <img
+          class="logo"
+          src="./assets/svgs/SaggaLogo.svg"
+          alt="Logo da Sagga Estudios"
+        />
+        <div class="saggaStudiosContainer">
+          <img
+            class="saggaMarca"
+            src="./assets/svgs/SaggaMarca.svg"
+            alt="Sagga escrito com uma fonte estilizada da marca"
+          />
+          <p class="studiosMarca">STUDIOS</p>
         </div>
-      </section>
-      <section class="nav-itens">
-        <ul class="nav-itens">
-          <li>
+      </div>
+      <nav class="navbar">
+          <div class="holographic-card">
             <a href="./index.html">Home</a>
-          </li>
-          <li>
+          </div>
+          <div class="holographic-card">
             <a href="./sobre/sobre.html">Sobre</a>
-          </li>
-          <li>
+          </div>
+          <div class="holographic-card">
             <a href="./novidades/novidade.html">Novidades</a>
-          </li>
-          <li>
+          </div>
+          <div class="holographic-card">
             <a href="./produtos-servicos/produtos-servicos.html">Produtos</a>
-          </li>
-          <li>
+          </div>
+          <div class="holographic-card">
             <a href="./contato/contato.html">Contatos</a>
-          </li>
-        </ul>
-      </section>
-    </nav>
-  </header>
-  <main></main>
-  <footer>
-    &copy;
-  </footer>
+          </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- Sempre coloque a script para carregar no final
+    Isso é importânte para evitar render lock da página -->
+    <script src="./script.js"></script>
   </body>
+</html>
