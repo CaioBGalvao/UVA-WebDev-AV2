@@ -1,0 +1,85 @@
+main {
+  margin: 1rem 0 1rem 0;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.subjectChoises {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+
+.choisesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 60rem;
+}
+
+.choisesButton {
+  border: 2px solid #ffc400;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.choisesButton:hover {
+  border: 2px solid black;
+  background-color: #ffc400;
+  color: black;
+}
+
+.form {
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.form input,
+.form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+  outline: none;
+  background-color: #fefefe;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #ffc400;
+}
+
+.form button {
+  background-color: #ffc400;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.form button:hover {
+  background-color: greenyellow;
+}
