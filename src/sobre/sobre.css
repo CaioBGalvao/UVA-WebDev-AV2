@@ -152,6 +152,6 @@ section h1 {
 
 .sobre-img1:hover,
 .sobre-img2:hover {
-  transform: rotateY(200deg) rotateX(5deg) scale(1.05);
+  transform: rotateY(10deg) rotateX(5deg) scale(1.05);
   box-shadow: 0 20px 40px #ffc400;
 }
