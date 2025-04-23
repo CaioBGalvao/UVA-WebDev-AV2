@@ -60,7 +60,7 @@ function subjectBtnHandler() {
 }
 
 function detectParams() {
-  const params = new URL(window.location.href).searchParams; // URLSearchParams :contentReference[oaicite:2]{index=2}
+  const params = new URL(window.location.href).searchParams;
   const promoVal = params.get("promo");
 
   const coupon = Math.random().toString(36).substring(2, 10).toUpperCase();
