@@ -17,10 +17,18 @@ repeat(...) → repete uma regra várias vezes.
 auto-fit → tenta encaixar o máximo de colunas possíveis dentro da largura da tela.
 minmax(250px, 1fr) → cada item deve ter no mínimo 250px de largura, e pode crescer até ocupar 1 fração (fr) do espaço disponível. 
 */
-.layout {
+.layout1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1.5rem;
+    padding: 10px;
+}
+
+.layout2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    padding: 10px;
 }
 
 .banner {
@@ -85,10 +93,20 @@ ease: é o tipo de aceleração da animação:
 .bordafoto{
     box-shadow: 0 0 10px 6px #ffc400 ;  
 
-    border-radius: 20px;
+    border-radius: 10px;
     height: 235px;
 }
     
+strong {
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px #ffffff;
+    border-radius: 10px;
+}
 
 h3 {
     color: #000000;
