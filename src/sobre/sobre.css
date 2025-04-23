@@ -5,7 +5,7 @@
 }
 
 main {
-margin-top: 20px;
+margin-top: 30px;
 }
 
 main h1 {
@@ -35,9 +35,9 @@ main h1:hover{
     height: 900px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left:60px;
+    margin-left:50px;
     background-color: black;
-    border:4px solid rgb(243, 190, 14);
+    box-shadow: 0 0 10px 6px #ffc400;
 }
 
 .sobre-img1{
@@ -62,10 +62,9 @@ main h1:hover{
     width:fit-content;
     height: 900px;
     margin-bottom: 40px;
-    margin-left:60px;
+    margin-left:50px;
     background-color: black;
-    border:4px solid rgb(243, 190, 14);
-    
+    box-shadow: 0 0 10px 6px #ffc400;    
 }
 
 .sobre-img2{
@@ -82,9 +81,6 @@ main h1:hover{
     justify-items: center;
     /* border: 1px solid green; */
 }
-
-
-
 
     /* -webkit-text-stroke-width: 2px; */
     /* -webkit-text-stroke-color: black; */

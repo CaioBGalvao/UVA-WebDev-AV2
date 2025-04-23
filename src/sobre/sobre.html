@@ -55,7 +55,7 @@
           <img class="responsiva" id="" src="../assets/img/arturimg.jpg">
         </div>
         <div class="txt-img1">
-          <img class="responsiva" id="" src="../assets/img/origem.png">
+          <img class="responsiva" id="origem" src="../assets/img/origens.png">
         </div>
       </section>
       <br>
@@ -78,4 +78,18 @@
     <script type="module" src="../global/global.js"></script>
     <script src="sobre.js"></script>
   </body>
+
+  <script>
+    // PEGAR O ELEMENTO
+    const origem = document.getElementById('origem');
+    // EVENTO QUANDO MOUSE ESTIVER POR CIMA IMAGEM
+    origem.addEventListener('mouseover', function(){
+      origem.src = "../assets/img/missao.png";
+    });
+    // EVENTO QUANDO MOUSE SAIR DA IMAGEM
+    origem.addEventListener('mouseout', function(){
+      origem.src = "../assets/img/origens.png";
+    });
+    </script>
+    
 </html>
