@@ -1,0 +1,41 @@
+.content-section {
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    padding: 20px;
+    width: 650px;
+    margin: 20px auto;
+    background-color: #F4B400;
+    border-radius: 20px;
+  }
+
+  .image-frame {
+    border-radius: 15px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+    line-height: 0;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .image-frame img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .content-section h2,
+  .content-section p {
+      color: #333;
+      text-align: center;
+      margin: 0;
+  }
+
+  .content-section h2 {
+      font-size: 1.8em;
+      font-weight: bold;
+  }
+
+  .content-section p {
+      font-size: 1em;
+  }

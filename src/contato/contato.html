@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sagga Studios</title>
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <link rel="stylesheet" href="../global/global.css" />
     <link rel="stylesheet" href="contato.css" />
   </head>
@@ -27,32 +27,94 @@
         </div>
       </div>
       <nav class="navbar">
-          <div class="holographic-card">
-            <a href="../index.html">Home</a>
-          </div>
-          <div class="holographic-card">
-            <a href="../sobre/sobre.html">Sobre</a>
-          </div>
-          <div class="holographic-card">
-            <a href="../novidades/novidade.html">Novidades</a>
-          </div>
-          <div class="holographic-card">
-            <a href="../produtos-servicos/produtos-servicos.html">Produtos</a>
-          </div>
-          <div class="holographic-card">
-            <a href="contato.html">Contatos</a>
-          </div>
+        <div class="holographic-card">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="holographic-card">
+          <a href="../sobre/sobre.html">Sobre</a>
+        </div>
+        <div class="holographic-card">
+          <a href="../novidades/novidade.html">Novidades</a>
+        </div>
+        <div class="holographic-card">
+          <a href="../produtos-servicos/produtos-servicos.html">Produtos</a>
+        </div>
+        <div class="holographic-card">
+          <a href="contato.html">Contatos</a>
+        </div>
       </nav>
     </header>
     <main>
-      <!-- Conteúdo -->
+      <section class="formContainer">
+        <h2>Fale conosco!</h2>
+        <section class="subjectChoises">
+          <p>Sobre o que você gostaria de falar?</p>
+          <div class="choisesContainer">
+            <button id="encomenda" class="choisesButton">
+              Sobre uma encomenda que não tem no site
+            </button>
+            <button id="atraso" class="choisesButton">
+              Sobre uma encomenda atrasada
+            </button>
+            <button id="cancelamento" class="choisesButton">
+              Gostaria de cancelar uma encomenda
+            </button>
+            <button id="theOneRing" class="choisesButton">
+              Por que minha estátua do Senhor dos Aneis não veio por águia?
+            </button>
+            <button id="dontPanic" class="choisesButton">
+              Minha estátua do Mochileiro das Galaxias não veio com uma toalha!
+            </button>
+            <button id="cheat" class="choisesButton">
+              Esqueci qual é o Konami Code
+            </button>
+          </div>
+        </section>
+        <form class="form">
+          <label for="inputName">Nome:</label>
+          <input
+            type="text"
+            id="inputName"
+            name="name"
+            placeholder="Bruce Wayne"
+            required
+          />
+
+          <label for="inputEmail">E-mail:</label>
+          <input
+            type="email"
+            id="inputEmail"
+            name="email"
+            placeholder="batman@batfamily.gthm"
+            required
+          />
+
+          <label for="inputSubject">Assunto:</label>
+          <input
+            type="text"
+            id="inputSubject"
+            name="subject"
+            placeholder="Ixi! Vazei a identidade do Batman..."
+          />
+
+          <label for="inputMessage">Escreva e eu lerei!</label>
+          <textarea
+            id="inputMessage"
+            name="message"
+            placeholder="Curinguei legal HAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
+            rows="5"
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
     <footer>
       <p>Criado com ❤️ por Caio🤓, Daniel🥋, Gabi😊, Patrick👀, Vini🥴</p>
     </footer>
     <!-- Sempre coloque a script para carregar no final
     Isso é importânte para evitar render lock da página -->
-    <script src="../global/global.js"></script>
+    <script type="module" src="../global/global.js"></script>
     <script src="contato.js"></script>
   </body>
 </html>
