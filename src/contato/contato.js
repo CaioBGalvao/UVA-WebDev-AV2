@@ -1,5 +1,13 @@
 const subjects = {
   konamiCode: "Snake: 'STOP FOOLIN' AROUND KID!'",
+  batman: "Adoraria de encomendar uma estátua do Batman",
+  kratos: "Adoraria de encomendar uma estátua do Kratos",
+  arthas: "Adoraria de encomendar uma estátua do Arthas",
+  nathan: "Adoraria de encomendar uma estátua do Nathan Drake",
+  croc: "Adoraria de encomendar uma estátua do Killer Croc",
+  goblin: "Adoraria de encomendar uma estátua do Green Goblin",
+  malenia: "Adoraria de encomendar uma estátua da Malenia",
+  panthro: "Adoraria de encomendar uma estátua do Panthro",
   encomenda: "Gostaria de fala sobre <Sua Estatua Favorita>",
   atraso: "Onde está a minha estátua",
   cancelamento: "Infelizmente eu preciso cacelar meu pedido",
@@ -10,6 +18,17 @@ const subjects = {
 
 const text = {
   konamiCode: "Você desbloqueou um desconto de 10%, aqui o seu código: ",
+  batman:
+    "Ou se morre como herói, ou vive-se o bastante para se tornar o vilão",
+  kratos: "Boi! A maldade nunca é plena, mata a alma e envenena.",
+  arthas:
+    "Uther! Como seu futuro rei eu ORDENO que você expurgue este WebSite.",
+  nathan: "Sic Parvis Magna",
+  croc: "Eu quebrei as costas deles com minhas próprias mãos",
+  goblin:
+    "Se há algo de que eles gostam mais do que um herói é ver a queda de um herói",
+  malenia: "Minha carne era um ouro opaco... e meu sangue, apodrecido.",
+  panthro: "Se eles me matarem, pelo menos morro como um homem.",
   encomenda: "Insira descrições detalhadas do seu pedido",
   atraso: "Insira o número do seu do seu pedido aqui junto com mais detalhes",
   cancelamento: "Insira o motivo do seu cancelamento.",
