@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 main {
@@ -10,115 +10,81 @@ margin-top: 20px;
 
 main h1 {
     font-size:60px;
-    color:  rgb black;
+    color:  rgb(243, 190, 14);
     font-family: "Fredericka the Great", serif;
     font-weight: normal; 
     transition: 0.5s all;  
     display:flex;
     justify-content: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
 }
 
 main h1:hover{
     color:  rgb black;
     font-family: "Fredericka the Great", serif;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(235, 252, 82);
+    -webkit-text-stroke-color: rgb(252, 235, 82);
     font-size: 60px;
 }
 
 .sobre{
     display:flex;
     justify-content: center;
-    align-content: center;
-    height: 500px;
-    /* border:1px solid rgb(51, 12, 224); */
+    width:fit-content;
+    height: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:60px;
+    background-color: black;
+    border:4px solid rgb(243, 190, 14);
 }
 
 .sobre-img1{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-    /* border: 1px solid blue; */
-}
-
-.responsiva{
-    width: 800px;
-    height: 500px;
-}
-
-.sobre-txt1{
     display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-    justify-content: left;
-    margin-left: 30px;
-    width: 1600px;
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid rgb(255, 0, 149) */
+}
+
+.txt-img1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 20px;
     /* border: 1px solid green; */
-}
-
-.sobre-txt1 span{
-    color: rgb black;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-.sobre-txt1 h3{
-    font-family: "Fredericka the Great", serif;
-    font-size: 40px;
-    color: rgb black;
-    line-height: 70px;
-    text-transform: uppercase;
-}
-
-.sobre-txt1 p{
-    color:rgb black;
 }
 
 .sobre2{
     display:flex;
     justify-content: center;
-    align-content: center;
-    height: 700px;
-    margin-top: 20px;
-    /* border:1px solid rgb(51, 12, 224); */
+    justify-items: center;
+    width:fit-content;
+    height: 900px;
+    margin-bottom: 40px;
+    margin-left:60px;
+    background-color: black;
+    border:4px solid rgb(243, 190, 14);
+    
 }
 
 .sobre-img2{
-    display:flex;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    width: 800px;
-    /* border: 1px solid blue; */
+    justify-items: center;
+    padding-left: 20px;
+    /* border: 1px solid rgb(255, 0, 149) */
 }
 
-.sobre-txt2{
+.txt-img2{
     display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-    justify-content: left;
-    margin-left: 10px;
-    width: 1600px;
+    justify-content: center;
+    justify-items: center;
     /* border: 1px solid green; */
 }
 
-.sobre-txt2 span{
-    color: rgb(1, 0, 5);
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    width: 100%;
-}
 
-.sobre-txt2 h3{
-    font-family: "Fredericka the Great", serif;
-    font-size: 40px;
-    color: rgb black;
-    line-height: 70px;
-    width: 100%;
-    text-transform: uppercase;
-}
 
-.sobre-txt2 p{
-    color:rgb black;
-}
+
+    /* -webkit-text-stroke-width: 2px; */
+    /* -webkit-text-stroke-color: black; */
