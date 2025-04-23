@@ -69,7 +69,7 @@ main {
   text-align: center;
   margin: 0;
   animation-name: color-cycle;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
