@@ -118,7 +118,6 @@ a {
 /* https://prismic.io/blog/css-hover-effects#1-holographic-card */
 
 .holographic-card {
-  padding: 1rem;
   background: black;
   display: flex;
   place-items: center;
@@ -129,6 +128,7 @@ a {
 }
 
 .holographic-card a {
+  padding: 1rem;
   color: white;
   font-size: 1rem;
   position: relative;
@@ -171,6 +171,6 @@ footer {
   font-size: 1rem;
 }
 
-body{
+body {
   background-color: #201f1f;
 }
