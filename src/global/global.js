@@ -1,14 +1,14 @@
 import Konami from "konami";
 
-const nodeEnv = import.meta.env.NODE_ENV;
+const { VITE_ENV, VITE_PORT } = import.meta.env;
 
 let env = "";
 
-if (nodeEnv !== undefined && typeof nodeEnv === "string") {
-  if (nodeEnv === "production") {
+if (VITE_ENV !== undefined && typeof VITE_ENV === "string") {
+  if (VITE_ENV === "production") {
     env = "http://caiogalvao.com.br/UVA-WebDev-AV2/";
   } else {
-    env = "http://localhost/";
+    env = `http://localhost:${VITE_PORT}`;
   }
 } else {
   throw new Error("Secret Variable not defined");
