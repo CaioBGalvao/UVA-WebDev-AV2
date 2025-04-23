@@ -107,3 +107,7 @@ about-header {
 #noticia-principal:target{
     display: block;
 }
+#link{
+    color:#F4B400 ;
+    font-size: 20px;
+}
