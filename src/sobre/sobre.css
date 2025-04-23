@@ -26,6 +26,10 @@ main h1:hover {
   font-size: 70px;
 }
 
+section h1 {
+  margin-top: 20px;
+}
+
 .sobre {
   margin: 2rem 1rem 1rem 1rem;
   display: flex;
@@ -74,7 +78,7 @@ main h1:hover {
 
 .sobre-txt1 p {
   font-size: 20px;
-  color: whitesmoke;
+  color: white;
   font-family: "Fredericka the Great", serif;
   font-weight: normal;
   transition: 0.5s all;
@@ -83,6 +87,7 @@ main h1:hover {
 
 .sobre2 {
   margin: 1rem;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   place-items: center;
@@ -96,7 +101,7 @@ main h1:hover {
 }
 
 .sobre-txt2 {
-    padding: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -128,12 +133,25 @@ main h1:hover {
 
 .sobre-txt2 p {
   font-size: 20px;
-  color: whitesmoke;
+  color: white;
   font-family: "Fredericka the Great", serif;
   font-weight: normal;
   transition: 0.5s all;
   display: block;
 }
 
-/* -webkit-text-stroke-width: 2px; */
-/* -webkit-text-stroke-color: black; */
+.sobre-img1,
+.sobre-img2 {
+  border-radius: 10px;
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.sobre-img1:hover,
+.sobre-img2:hover {
+  transform: rotateY(200deg) rotateX(5deg) scale(1.05);
+  box-shadow: 0 20px 40px #ffc400;
+}
