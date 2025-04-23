@@ -1,124 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
-*{
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 
 main {
-margin-top: 20px;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
 }
 
 main h1 {
-    font-size:60px;
-    color:  rgb black;
-    font-family: "Fredericka the Great", serif;
-    font-weight: normal; 
-    transition: 0.5s all;  
-    display:flex;
-    justify-content: center;
+  font-size: 70px;
+  color: rgb(243, 190, 14);
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
+  transition: 0.5s all;
+  justify-content: center;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
 }
 
-main h1:hover{
-    color:  rgb black;
-    font-family: "Fredericka the Great", serif;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: rgb(235, 252, 82);
-    font-size: 60px;
+main h1:hover {
+  color: rgb black;
+  font-family: "Fredericka the Great", serif;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(252, 235, 82);
+  font-size: 70px;
 }
 
-.sobre{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    height: 500px;
-    /* border:1px solid rgb(51, 12, 224); */
+.sobre {
+  margin: 2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  background-color: black;
+  box-shadow: 0 0 10px 6px #ffc400;
 }
 
-.sobre-img1{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-    /* border: 1px solid blue; */
+.sobre-img1 {
+  max-height: 40rem;
+  /* border: 1px solid rgb(255, 0, 149) */
 }
 
-.responsiva{
-    width: 800px;
-    height: 500px;
+.sobre-txt1 {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-image: url(../assets/img/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  min-height: 40rem; /* Isso força o fundo a ocupar a altura */
+  width: 100%;
 }
 
-.sobre-txt1{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-    justify-content: left;
-    margin-left: 30px;
-    width: 1600px;
-    /* border: 1px solid green; */
+.sobre-txt1 h1 {
+  font-size: 60px;
+  color: rgb(243, 190, 14);
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
+  transition: 0.5s all;
+  font-size: 50px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
 }
 
-.sobre-txt1 span{
-    color: rgb black;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    width: 100%;
+.sobre-txt1 h1:hover {
+  color: rgb black;
+  font-family: "Fredericka the Great", serif;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(252, 235, 82);
+  font-size: 50px;
 }
 
-.sobre-txt1 h3{
-    font-family: "Fredericka the Great", serif;
-    font-size: 40px;
-    color: rgb black;
-    line-height: 70px;
-    text-transform: uppercase;
+.sobre-txt1 p {
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
+  transition: 0.5s all;
+  display: block;
 }
 
-.sobre-txt1 p{
-    color:rgb black;
+.sobre2 {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  background-color: black;
+  box-shadow: 0 0 10px 6px #ffc400;
 }
 
-.sobre2{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    height: 700px;
-    margin-top: 20px;
-    /* border:1px solid rgb(51, 12, 224); */
+.sobre-img2 {
+  max-height: 40rem;
+  /* border: 1px solid rgb(255, 0, 149) */
 }
 
-.sobre-img2{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-    /* border: 1px solid blue; */
+.sobre-txt2 {
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-image: url(../assets/img/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 40rem; /* Isso força o fundo a ocupar a altura */
+  width: 100%;
 }
 
-.sobre-txt2{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: left;
-    justify-content: left;
-    margin-left: 10px;
-    width: 1600px;
-    /* border: 1px solid green; */
+.sobre-txt2 h1 {
+  font-size: 50px;
+  color: rgb(243, 190, 14);
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
+  transition: 0.5s all;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
 }
 
-.sobre-txt2 span{
-    color: rgb(1, 0, 5);
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    width: 100%;
+.sobre-txt2 h1:hover {
+  color: rgb black;
+  font-family: "Fredericka the Great", serif;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(252, 235, 82);
+  font-size: 50px;
 }
 
-.sobre-txt2 h3{
-    font-family: "Fredericka the Great", serif;
-    font-size: 40px;
-    color: rgb black;
-    line-height: 70px;
-    width: 100%;
-    text-transform: uppercase;
+.sobre-txt2 p {
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
+  transition: 0.5s all;
+  display: block;
 }
 
-.sobre-txt2 p{
-    color:rgb black;
-}
+/* -webkit-text-stroke-width: 2px; */
+/* -webkit-text-stroke-color: black; */
