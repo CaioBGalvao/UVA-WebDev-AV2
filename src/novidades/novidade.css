@@ -127,4 +127,31 @@ about-header {
 }
 p {
   font-size: 20px;
+  margin-left: 20px;
 }
+h2{
+  color: #b88701;
+  margin-left: 20px;
+}
+h1{
+  color:#f4b400;
+  margin-left: 15px;
+}
+button{
+  margin-left: 120px;
+  height: 50px;
+  width: 190px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px;
+  transition: transform 200ms ease-in-out;
+  background-color:#ffffff
+  
+  
+}
+button:hover{
+  transform: scale(1.05);
+}
+
