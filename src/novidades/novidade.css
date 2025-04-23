@@ -10,6 +10,7 @@ central {
     padding: 0 2%;
     flex-wrap: wrap;
 }
+
 about-header {
     width: 100%;
     background-color: aquamarine;
@@ -25,6 +26,9 @@ about-header {
     background-color: #201f1f;
     border: 4px solid white;
     position: relative;
+    background-image:url(../assets/img/anuncio-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .noticia-destaque-single{
     left: 0;
@@ -34,11 +38,13 @@ about-header {
     height: 100%;
     background-size: cover;
     background-position: center;
+   
 
 }
 .noticia-destaque-single h3{
     padding: 10px;
     color: white;
+
 }
 .outra-noticia-1{
     display: flex;
@@ -53,11 +59,12 @@ about-header {
     border: 4px solid white;
     background-color: #201f1f;
     position: relative;
+    
 }
 .outra-noticia-1-single h3{
     padding: 10px;
     color:white;
     width: 100%;
     height: 40px;
-    background-color:#201f1f
+    background-color:rgba(0,0,0,0.6);
 }
