@@ -68,4 +68,42 @@ about-header {
     height: 40px;
     background-color:rgba(0,0,0,0.6);
 }
+.outra-noticia-1-single:hover{
+    font-size: 20px;
+}
+#noticia{
+    display: none;
+    color: white;
+}
+#noticia:target{
+    display: block;
+}
 
+#noticia-2{
+    display: none;
+    color: white;
+}
+#noticia-2:target{
+    display: block;
+}
+#noticia-3{
+    display: none;
+    color: white;
+}
+#noticia-3:target{
+    display: block;
+}
+#noticia-4{
+    display: none;
+    color: white;
+}
+#noticia-4:target{
+    display: block;
+}
+#noticia-principal{
+    display: none;
+    color: white;
+}
+#noticia-principal:target{
+    display: block;
+}
