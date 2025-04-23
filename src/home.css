@@ -1,3 +1,25 @@
+main {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.hero {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  color: white;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.bottonText {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
 .content-banner {
   justify-items: center;
   gap: 15px;
@@ -72,4 +94,28 @@
   100% {
     color: #0026ff;
   }
+}
+
+@keyframes pulseGlow {
+  10% {
+    filter: brightness(110%) drop-shadow(0 0 0.5rem #f4b400)
+      drop-shadow(0 0 0.5rem #f4b400);
+  }
+  100% {
+    filter: brightness(110%) drop-shadow(0 0 0.5rem #f4b400)
+      drop-shadow(0 0 0.5rem #f4b400);
+  }
+  25% {
+    filter: brightness(110%) drop-shadow(0 0 1.75rem #f4b400)
+      drop-shadow(0 0 1.75rem #f4b400);
+  }
+}
+
+.gas {
+  filter: brightness(100%) drop-shadow(0 0 0.5rem #f4b400)
+    drop-shadow(0 0 0.5rem #f4b400);
+
+  will-change: filter;
+
+  animation: pulseGlow 3s ease-in-out infinite;
 }
