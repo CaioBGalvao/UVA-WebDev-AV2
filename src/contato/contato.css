@@ -1,5 +1,5 @@
 main {
-  margin: 1rem 0 1rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
 .formContainer {
@@ -8,11 +8,19 @@ main {
   place-items: center;
 }
 
+.formContainer h2 {
+  color: #ffc400;
+}
+
 .subjectChoises {
   display: flex;
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+}
+
+.subjectChoises p {
+  color: #ffc400;
 }
 
 .choisesContainer {
@@ -49,7 +57,7 @@ main {
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 0.3rem;
-  color: #333;
+  color: #ffc400;
 }
 
 .form input,
