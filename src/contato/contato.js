@@ -8,7 +8,7 @@ const subjects = {
   goblin: "Adoraria encomendar uma estátua do Green Goblin",
   malenia: "Adoraria encomendar uma estátua da Malenia",
   panthro: "Adoraria encomendar uma estátua do Panthro",
-  encomenda: "Gostaria fala sobre <Sua Estatua Favorita>",
+  encomenda: "Gostaria de falar sobre <Sua Estatua Favorita>",
   atraso: "Onde está a minha estátua",
   cancelamento: "Infelizmente eu preciso cacelar meu pedido",
   theOneRing: "You cannot pass!!! (Sim eu gosto mais dos livros)",
