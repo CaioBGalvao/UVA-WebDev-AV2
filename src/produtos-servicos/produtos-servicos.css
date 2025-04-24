@@ -22,7 +22,8 @@ minmax(250px, 1fr) → cada item deve ter no mínimo 250px de largura, e pode cr
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5rem;
   padding: 10px;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .layout2 {
@@ -30,7 +31,7 @@ minmax(250px, 1fr) → cada item deve ter no mínimo 250px de largura, e pode cr
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5rem;
   padding: 10px;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .banner {
