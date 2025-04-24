@@ -1,15 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #201f1f;
-    color: #000000;
-    font-family: sans-serif;
+body {
+  background-color: #201f1f;
+  color: #000000;
+  font-family: sans-serif;
 }
 
-main{
-    padding: 1.5rem;
+main {
+  padding: 1.5rem;
 }
 
 /* 
@@ -18,65 +18,67 @@ auto-fit → tenta encaixar o máximo de colunas possíveis dentro da largura da
 minmax(250px, 1fr) → cada item deve ter no mínimo 250px de largura, e pode crescer até ocupar 1 fração (fr) do espaço disponível. 
 */
 .layout1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1.5rem;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  padding: 10px;
+  padding-top: 1.5rem;
 }
 
 .layout2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1.5rem;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  padding: 10px;
+  padding-top: 1.5rem;
 }
 
 .banner {
-    background-color: #fcc81f;
-    padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: 0 5px 17px #111827;
-    transition: box-shadow 0.9s ease;
+  background-color: #fcc81f;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 17px #111827;
+  transition: box-shadow 0.9s ease;
 }
 
 .banner:hover {
-    box-shadow: 0 4px 10px #ffffff;
+  box-shadow: 0 4px 10px #ffffff;
 }
 
-.banner img{
-    width: 100%;
-    border-radius: 0.75rem;
-    margin-bottom: 0.5rem;
-    box-shadow: 0 5px 30px;
+.banner img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 5px 30px;
 }
 
-.banner h3{
-    font-size: 1.25rem;
-    font-weight: 0.5rem;
-
+.banner h3 {
+  font-size: 1.25rem;
+  font-weight: 0.5rem;
 }
 
 .banner p {
-    margin: 0.25rem 0;
-    color: #111827;
+  margin: 0.25rem 0;
+  color: #111827;
 }
 
-.banner button{
-    margin-top: 0.75rem;
-    padding: 0.5rem 1rem;
-    background-color: #ffc400;
-    color: #000;
-    border: none;
-    border-radius: 0.75rem;
-    cursor: pointer;
-    /* 
+.banner button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffc400;
+  color: #000;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  /* 
     background-color 0.3s ease
 background-color: é a propriedade que será animada (cor de fundo).
 0.3s: é a duração da transição → 0.3 segundos (300 milissegundos).
 ease: é o tipo de aceleração da animação: 
 */
-    transition: background-color 0.3s ease, color 0.3s ease;
-    
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* .banner button:hover{
@@ -84,31 +86,29 @@ ease: é o tipo de aceleração da animação:
     color: #000;
 } */
 
-.valor{
-    color: #ffc400;
-    font-weight: bold;
-   
+.valor {
+  color: #ffc400;
+  font-weight: bold;
 }
 
-.bordafoto{
-    box-shadow: 0 0 10px 6px #ffc400 ;  
+.bordafoto {
+  box-shadow: 0 0 10px 6px #ffc400;
 
-    border-radius: 10px;
-    height: 235px;
+  border-radius: 10px;
+  height: 235px;
 }
-    
+
 strong {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-h2{
-    text-align: center;
-    background-color: #ffc400;
-    box-shadow: 0 5px 10px #ffffff;
-    border-radius: 10px;
+h2 {
+  text-align: center;
+  background-color: #ffc400;
+  box-shadow: 0 5px 10px #ffffff;
+  border-radius: 10px;
 }
 
 h3 {
-    color: #000000;
+  color: #000000;
 }
-
