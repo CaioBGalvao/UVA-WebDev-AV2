@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-main{
+
+main {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-right: 1rem;
@@ -132,19 +132,23 @@ about-header {
   color: #f4b400;
   font-size: 20px;
 }
+
 p {
   font-size: 20px;
   margin-left: 20px;
 }
-h2{
+
+h2 {
   color: #b88701;
   margin-left: 20px;
 }
-h1{
-  color:#f4b400;
+
+h1 {
+  color: #f4b400;
   margin-left: 15px;
 }
-button{
+
+button {
   color: #f4b400;
   font-size: 15px;
   margin-left: 120px;
@@ -156,12 +160,9 @@ button{
   border-radius: 20px;
   box-shadow: 4px 4px 0px;
   transition: transform 200ms ease-in-out;
-  background-color:#ffffff
-  
-  
+  background-color: #ffffff;
 }
-button:hover{
+
+button:hover {
   transform: scale(1.05);
 }
-
-
