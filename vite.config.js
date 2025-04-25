@@ -5,7 +5,7 @@ import process from "node:process";
 
 /** @type {import('vite').UserConfig} */
 export default defineConfig({
-  root: "./src",
+  root: "./",
   server: {
     port: parseInt(process.env.VITE_PORT || process.env.PORT || "5173", 10),
     strictPort: true,
