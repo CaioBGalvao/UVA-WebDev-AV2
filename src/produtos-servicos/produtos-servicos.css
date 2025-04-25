@@ -136,9 +136,7 @@ h3 {
     transition: transform 0.3s ease;
   }
   
-  .banner:hover {
-    transform: scale(1.03);
-  }
+ 
   
  
   .bordafoto {
@@ -212,9 +210,6 @@ header .navbar {
   transition: transform 0.3s ease;
 }
 
-.banner:hover {
-  transform: scale(1.03);
-}
 
 /* Centralizando imagem  */
 .bordafoto {
@@ -252,5 +247,4 @@ header .navbar {
   .banner {
     width: 90%;
   }
-}
 }
