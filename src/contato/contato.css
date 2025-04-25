@@ -93,6 +93,17 @@ main {
   color: black;
 }
 
+@media (max-width: 1024px) {
+  body {
+      font-size: 0.95rem; 
+  }
+
+  header .navbar {
+      gap: 0.5rem;
+      margin-right: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   body {
        font-size: 0.9rem;
@@ -120,7 +131,7 @@ main {
       font-size: 0.9rem;
       padding: 0.5rem;
   }
-
+    
   footer {
     font-size: 0.9rem; 
     padding: 0.5rem;
