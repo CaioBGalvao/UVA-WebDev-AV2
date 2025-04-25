@@ -95,46 +95,89 @@ main {
 
 @media (max-width: 1024px) {
   body {
-      font-size: 0.95rem; 
+    font-size: 0.95rem;
   }
 
   header .navbar {
-      gap: 0.5rem;
-      margin-right: 0.5rem;
+    gap: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
 @media (max-width: 768px) {
   body {
-       font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   header {
-      flex-direction: column;
-      align-items: center;
-      padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
   }
-  
+
   header .logomarca {
-       margin-left: 0;
-       margin-bottom: 0.5rem;
+    margin-left: 0;
+    margin-bottom: 0.5rem;
   }
 
   header .navbar {
-       gap: 0.5rem; 
-       margin-right: 0;
-       justify-content: center;
-       flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-right: 0;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  
+
   .holographic-card a {
-      font-size: 0.9rem;
-      padding: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
   }
-    
+
+  .choisesContainer {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
   footer {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
     padding: 0.5rem;
     text-align: center;
+    translate: 0 116px;
+  }
 }
+
+@media (max-width: 320px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  header .logomarca {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  header .navbar {
+    gap: 0.5rem;
+    margin-right: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .holographic-card a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-align: center;
+    translate: 0 323px;
+  }
 }
