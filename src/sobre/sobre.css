@@ -155,3 +155,32 @@ section h1 {
   transform: rotateY(10deg) rotateX(5deg) scale(1.05);
   box-shadow: 0 20px 40px #ffc400;
 }
+
+@media (max-width: 768px) {
+  body {
+       font-size: 0.9rem;
+  }
+
+  header {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+  }
+  
+  header .logomarca {
+       margin-left: 0;
+       margin-bottom: 0.5rem;
+  }
+
+  header .navbar {
+       gap: 0.5rem; 
+       margin-right: 0;
+       justify-content: center;
+       flex-wrap: wrap;
+  }
+  
+  .holographic-card a {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+  }
+}
