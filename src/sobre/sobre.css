@@ -156,6 +156,17 @@ section h1 {
   box-shadow: 0 20px 40px #ffc400;
 }
 
+@media (max-width: 1024px) {
+  body {
+      font-size: 0.95rem; 
+  }
+
+  header .navbar {
+      gap: 0.5rem;
+      margin-right: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   body {
        font-size: 0.9rem;
