@@ -163,7 +163,7 @@ h3 {
     font-size: 1.1rem;
     color: #222;
   }
-  
+}
   /* Responsividade para telas menores */
   @media (max-width: 768px) {
    
@@ -237,6 +237,7 @@ header .navbar {
   color: #222;
 }
 
+  }
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
   .layout1, .layout2 {
