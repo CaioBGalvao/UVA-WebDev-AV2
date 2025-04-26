@@ -156,6 +156,69 @@ section h1 {
   box-shadow: 0 20px 40px #ffc400;
 }
 
+/* Smartphones em geral (até 600px) */
+@media screen and (max-width: 600px) {
+  main h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .sobre, .sobre2 {
+    flex-direction: column;
+  }
+
+  .sobre-img1, .sobre-img2 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sobre-txt1, .sobre-txt2 {
+    padding: 1rem;
+    min-height: auto;
+  }
+
+  .sobre-txt1 h1, .sobre-txt2 h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sobre-txt1 p, .sobre-txt2 p {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
+/* Tablets e iPads (entre 601px e 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  main h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .sobre, .sobre2 {
+    flex-direction: column;
+  }
+
+  .sobre-img1, .sobre-img2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .sobre-txt1, .sobre-txt2 {
+    padding: 1.5rem;
+    min-height: auto;
+  }
+
+  .sobre-txt1 h1, .sobre-txt2 h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .sobre-txt1 p, .sobre-txt2 p {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
 @media (max-width: 1024px) {
   body {
       font-size: 0.95rem; 
