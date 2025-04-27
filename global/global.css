@@ -99,11 +99,13 @@ a {
 
 @font-face {
   font-family: "Opinion";
-  src: url(assets/font/Opinion\ Pro\ Light.otf);
+  src: url("../assets/font/Opinion_Pro_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 .studiosMarca {
-  font-family: "Opinion";
+  font-family: "Opinion", sans-serif;
   color: white;
   font-size: 2rem;
 }
