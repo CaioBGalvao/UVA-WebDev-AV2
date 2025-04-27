@@ -17,18 +17,12 @@ header {
   align-items: baseline;
   gap: 0.5rem;
 }
-.navbar {
-  display: flex;
-  gap: 1rem;
-  margin-right: 1rem;
-}
 
 .holographic-card a {
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
-
   border-radius: 4px;
 }
 
@@ -136,7 +130,8 @@ a {
 button{
   color: #f4b400;
   font-size: 15px;
-  margin-left: 120px;
+  margin-right: 100px;
+  margin-left: 450px;
   height: 50px;
   width: 190px;
   border: none;
@@ -145,6 +140,18 @@ button{
   box-shadow: 4px 4px 0px;
   transition: transform 200ms ease-in-out;
   background-color: #ffffff;
+}
+h1{
+  color: #f4b400;
+  font-size: 30px;
+}
+h2{
+  color: #d4a713;
+  font-size: 25px;
+}
+p{
+  color: white;
+  font-size: 20px;
 }
 /* Tablets e iPads (entre 601px e 1024px) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -203,6 +210,9 @@ button{
     align-items: flex-start;
     justify-content: flex-end;
   }
+  button{
+    margin-left: 85px;
+  }
 }
 
 /* Responsividade geral para telas até 1024px */
@@ -226,6 +236,9 @@ button{
   .img-laterais > div {
     align-items: flex-start;
     justify-content: flex-end;
+  }
+  button{
+    margin-left: 85px;
   }
 }
 
@@ -252,5 +265,8 @@ button{
   .img-laterais > div {
     align-items: flex-start;
     justify-content: flex-end;
+  }
+  button{
+    margin-left: 85px;
   }
 }
