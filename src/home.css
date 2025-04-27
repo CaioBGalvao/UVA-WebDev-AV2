@@ -126,15 +126,6 @@ main {
 }
 
 @media (max-width: 1024px) {
-  body {
-    font-size: 0.95rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
   .content-banner {
     width: 95%;
     padding: 15px;
@@ -151,33 +142,6 @@ main {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 0.9rem;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-  }
-
-  header .logomarca {
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .holographic-card a {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-
   .hero {
     font-size: 1.1rem;
     margin: 0.5rem;
@@ -232,11 +196,5 @@ main {
     width: 95%;
     height: auto;
     margin-left: 8.75px;
-  }
-
-  footer {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-    text-align: center;
   }
 }

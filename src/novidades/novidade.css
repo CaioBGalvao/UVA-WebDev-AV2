@@ -41,10 +41,9 @@ header {
   overflow: hidden;
   background-color: #121212;
   border: 3px solid #ffc400;
-  gap: 0; 
+  gap: 0;
   box-shadow: 0 0 10px 6px #ffc400;
 }
-
 
 .img-principal {
   flex: 3; /* 60% */
@@ -104,11 +103,11 @@ header {
   padding: 5px;
   margin: 0;
 }
-a{
+a {
   color: white;
   text-decoration: none;
 }
-.textos{
+.textos {
   margin-left: 50px;
   margin-bottom: 50px;
 }
@@ -116,22 +115,22 @@ a{
 #txt-lateral1,
 #txt-lateral2,
 #txt-lateral3,
-#txt-lateral4{
+#txt-lateral4 {
   display: none;
 }
-#txt-principal:target{
+#txt-principal:target {
   display: block;
 }
-#txt-lateral1:target{
+#txt-lateral1:target {
   display: block;
 }
-#txt-lateral2:target{
+#txt-lateral2:target {
   display: block;
 }
-#txt-lateral3:target{
+#txt-lateral3:target {
   display: block;
 }
-#txt-lateral4:target{
+#txt-lateral4:target {
   display: block;
 }
 button{
@@ -149,15 +148,11 @@ button{
 }
 /* Tablets e iPads (entre 601px e 1024px) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-  body {
-    font-size: 0.95rem;
-  }
-
   .capa {
     height: 400px;
     width: 90%;
   }
-  .textos{
+  .textos {
     margin-left: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
@@ -168,26 +163,31 @@ button{
     text-align: left;
   }
 
-  .sobre, .sobre2 {
+  .sobre,
+  .sobre2 {
     flex-direction: column;
   }
 
-  .sobre-img1, .sobre-img2 {
+  .sobre-img1,
+  .sobre-img2 {
     width: 100%;
     height: auto;
   }
 
-  .sobre-txt1, .sobre-txt2 {
+  .sobre-txt1,
+  .sobre-txt2 {
     padding: 1.5rem;
     min-height: auto;
   }
 
-  .sobre-txt1 h1, .sobre-txt2 h1 {
+  .sobre-txt1 h1,
+  .sobre-txt2 h1 {
     font-size: 40px;
     text-align: left;
   }
 
-  .sobre-txt1 p, .sobre-txt2 p {
+  .sobre-txt1 p,
+  .sobre-txt2 p {
     font-size: 18px;
     text-align: justify;
   }
@@ -207,16 +207,11 @@ button{
 
 /* Responsividade geral para telas até 1024px */
 @media (max-width: 1024px) {
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
   .capa {
     height: 400px;
     width: 90%;
   }
-  .textos{
+  .textos {
     margin-left: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
@@ -236,49 +231,16 @@ button{
 
 /* Celulares até 768px */
 @media (max-width: 768px) {
-  body {
-    font-size: 0.9rem;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-  }
-  .textos{
+  .textos {
     margin-left: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
-  }
-
-  header .logomarca {
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .holographic-card a {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-
-  footer {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-    text-align: center;
   }
 
   .capa {
     height: 400px;
     width: 90%;
   }
-
 
   .img-principal h3,
   .img-principal p,
