@@ -93,46 +93,12 @@ main {
   color: black;
 }
 
-@media (max-width: 1024px) {
-  body {
-    font-size: 0.95rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0.5rem;
-  }
-}
-
 @media (max-width: 768px) {
   body {
     font-size: 0.9rem;
   }
 
-  header {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-  }
-
-  header .logomarca {
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .holographic-card a {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-
-  .choisesContainer {
+.choisesContainer {
     flex-direction: column;
     width: 100%;
     padding: 0 1rem;
@@ -147,33 +113,6 @@ main {
 }
 
 @media (max-width: 320px) {
-  body {
-    font-size: 0.9rem;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-  }
-
-  header .logomarca {
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  header .navbar {
-    gap: 0.5rem;
-    margin-right: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .holographic-card a {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-
   footer {
     font-size: 0.9rem;
     padding: 0.5rem;
